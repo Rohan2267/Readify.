@@ -78,7 +78,7 @@ const ViewBookDetails = () => {
                 <Link
                   to={`/updateBook/${id}`}
                   className='bg-white rounded  lg:rounded-full text-3xl p-3  flex items-center\ justify-center '><FaEdit />
-                  <span className='ms-4 block lg:hidden  '>Edit </span></Link>
+                  <span className='ms-4 block lg:hidden  '>Edit</span></Link>
                 <button className='text-red-500 rounded lg:rounded-full text-3xl p-3 md:mt-0  mt-8 lg:mt-8 flex items-center justify-center bg-white
                 '
                 onClick={deleteBook}
